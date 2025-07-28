@@ -1,0 +1,77 @@
+
+/* General style for all labels */
+label {
+    font-size: 14px;
+    color: black;
+}
+
+.label-file {
+    padding-top: 20px;
+    padding-bottom: 1px;
+}
+
+/* Label that looks like a text box */
+.textbox-label {
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #c3cad2;
+}
+
+
+.textbox-text {
+    padding: 5px;
+}
+
+
+/* Red text version of the label */
+.textbox-label-red {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #c3cad2;
+    color: red;
+}
+
+/* General style for buttons */
+.button-style {
+    margin: 10px;
+    background-color: #898989;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+
+.run-button label {
+    font-size: 36px;
+
+}
+
+
+.custom-textbox {
+    background-color: #00ff00;  /* Light gray background */
+    color: #00ff00;             /* Dark text */
+    font-size: 14px;            /* Adjust font size */
+    padding: 5px;               /* Padding inside the box */
+    border: 1px solid #999999;  /* Border around the box */
+    border-radius: 5px;         /* Rounded corners */
+}
+
+.custom-textbox-red{
+    background-color: #ff0000;  /* Light gray background */
+    color: red;             /* Dark text */
+    font-size: 14px;            /* Adjust font size */
+    padding: 5px;               /* Padding inside the box */
+    border: 1px solid #999999;  /* Border around the box */
+    border-radius: 5px;         /* Rounded corners */
+}
+
+window {
+    background-color: #c8ffe8;
+}
+
+/* Grid layout padding */
+.custom-grid {
+    margin: 20px;
+}
